@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Slabo+27px|Titillium+Web&display=swap');
+.msgheader {
+    font-family: 'Gelasio';
+}
+.message {
+    position: absolute;
+    bottom: 8px;
+    padding: 6px;
+    position: fixed;
+}
+.message input {
+    padding: 2px;
+    line-height: 40px;
+    border: 1px solid black;
+}
+.sendmsg {
+    border-radius: 5px;
+    background-color: rgb(108, 108, 255);
+    width: 380px;
+    margin: 10px;
+    color: white;
+    line-height: 50px;
+    text-align: right;
+    margin-bottom: 70px;
+    padding: 5px;
+    font-family: 'Titillium Web';
+}
+.receive {
+    border-radius: 5px;
+    background-color: rgb(184, 182, 182);
+    width: 380px;
+    margin: 10px;
+    line-height: 50px;
+    margin-bottom: 70px;
+    text-align: left;
+    padding: 5px;
+    font-family: 'Titillium Web';
+}
+.msgcaption {
+    width: 200px;
+    font-size: 13px;
+}
+.messagesfeature {
+    overflow: scroll;
+}
+.senderside {
+    position: relative;
+    margin-left: 1030px;
+}
+.messagingbutton {
+    background-color: rgb(46, 42, 42);
+    border: 2px solid black;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Titillium Web';
+    margin: 4px 15px;
+    cursor: pointer;
+}

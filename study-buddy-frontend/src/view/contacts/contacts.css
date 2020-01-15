@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Slabo+27px|Titillium+Web&display=swap');
+.contact-options td{
+    cursor: pointer;
+}
+#studenttable {
+    position: absolute;
+    top: 230px;
+    left: 340px;
+    width: 340px;
+}
+#tutortable {
+    position: absolute;
+    top: 230px;
+    left: 775px;
+    width: 340px;
+}
+.one {
+    float: left;
+    font-family: 'Gelasio';
+    font-size: 150%;
+}
+.two {
+    font-family: 'Titillium Web';
+    float: left;
+    margin-left: 5px;
+    margin-top: 26px;
+    font-size: 100%;
+}
+.contact-options th {
+    font-family: 'Gelasio';
+    font-size: 125%;
+    line-height: 10px;
+}
+.firstmsg {
+    font-family: 'Gelasio';
+    font-size: 230%;
+    margin-left: 10px;
+}
+.secondmsg {
+    font-family: 'Titillium Web';
+    font-size: 130%;
+    margin-left: 10px;
+}

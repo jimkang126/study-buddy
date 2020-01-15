@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Slabo+27px|Titillium+Web&display=swap');
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  width: 50px;
+  padding: 14px 16px;
+  float: left;
+  transition: 0.3s;
+}
+.tab button {
+  background-color: inherit;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.editbutton {
+  background-color: rgb(68, 92, 131);
+  border: 2px solid black;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Titillium Web';
+  cursor: pointer;
+  position: absolute;
+  left: 555px;
+  top: 120px;
+}
+.requests {
+  margin-left: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid black;
+  color: white;
+  padding: 8px 11px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Titillium Web';
+  cursor: pointer;
+}
+.messages {
+  margin-left: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid black;
+  color: white;
+  padding: 8px 11px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Titillium Web';
+  cursor: pointer;
+}
+.line {
+  margin-left:3;
+  width: 66%;
+}
+.studenttext {
+  font-family: 'Titillium Web';
+  font-size: 120%;
+  margin-left: 10px;
+}
+.studenth1 {
+  font-family: 'Gelasio';
+  font-size: 230%;
+  margin-left: 10px;
+}
+.tabs {
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 10px;
+}
+.component {
+  position: absolute;
+  left: 35px;
+  top: 380px;
+}
+.tabtitle {
+  border: 2px solid black;
+  padding: 10px;
+  width: 105px;
+  left: 175px;
+  position: absolute;
+}
+.tabtitle2 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 108px;
+  position: absolute; 
+  left: 340px;
+}
+.tdreq {
+  border: 2px solid black;
+  width: 545px;
+  background-color: rgb(182, 182, 182);
+}
+.reqname {
+  font-family: 'Gelasio';
+  font-size: 25px;
+  font-weight: bold;
+}
+.reqmsg {
+  font-size: 18px;
+  font-family: 'Titillium Web';
+}
+.reqaccept {
+  background-color: rgb(114, 170, 170);
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: black;
+  text-align: center;
+}
+.requestingbuttons {
+  float: right;
+}
+.reqdecline {
+  background-color: rgb(114, 170, 170);
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin-left: 20px;
+  text-align: center;
+  color: black;
+}
+.msgname {
+  font-weight: bold;
+  font-family: 'Gelasio';
+  font-size: 25px;
+}
+.msgbutton {
+  background-color: rgb(114, 170, 170);
+  border: 2px solid black;
+  padding: 10px 14px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  margin-left: 180px;
+}
+.msgtd {
+  border: 2px solid black;
+  width: 545px;
+  background-color: rgb(182, 182, 182);
+}
+.chatbuttonprofile {
+  float: right;
+  margin-right: 10px;
+}

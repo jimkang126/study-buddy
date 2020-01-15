@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Slabo+27px|Titillium+Web&display=swap');
+.current-text h1{
+    font-family: 'Gelasio';
+}
+.current-text h2 {
+    font-family: 'Titillium Web';
+}
+.current-text {
+    padding: 10px;
+}
+.current-input {
+    margin: 15px;
+}
+.addbutton {
+    margin: 20px;
+    background-color: rgb(68, 92, 131);
+    border: 2px solid black;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Titillium Web';
+    cursor: pointer;
+}
+#currenttable {
+    width: 430px;
+    top: 60px;
+    left: 600px;
+    position: absolute;
+    line-height: 15px;
+    overflow-x: auto;
+}
+.current-container {
+    padding: 10px;
+    border-radius: 2px;
+}
+.curr-transcript{
+    text-align:left;
+    width: 100%;
+    display: table;
+}
+.curr-transcript th h3{
+    font-size: 20px;
+    line-height: 0;
+    font-family: 'Gelasio';
+}
+.curr-transcript td {
+    font-size: 18px;
+    width: 430px;
+    font-family: 'Titillium Web';
+}
+.current-label {
+    margin: 10px;
+    font-family: 'Titillium Web';
+}
+.submitbutton {
+    margin: 10px;
+    background-color: rgb(68, 92, 131);
+    border: 2px solid black;
+    color: white;
+    padding: 5px 18px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Titillium Web';
+    cursor: pointer;
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+}
+td, th { 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+}

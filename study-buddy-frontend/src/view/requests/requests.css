@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Slabo+27px|Titillium+Web&display=swap');
+
+.reqh1 {
+    font-family: 'Gelasio';
+    margin-left: 10px;
+}
+.reqlabel {
+    font-family: 'Titillium Web';
+    margin-left: 10px;
+    font-size: 120%;
+}
+.reqinput {
+    padding: 10px;
+    margin-left: 10px;
+}
+.reqbutton {
+    margin-left: 10px;
+    background-color: rgb(91, 92, 94);
+    border: 2px solid black;
+    color: white;
+    padding: 8px 11px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Titillium Web';
+    cursor: pointer;
+}
+.reqbutton2 {
+    margin-left: 10px;
+    background-color: rgb(91, 92, 94);
+    border: 2px solid black;
+    color: white;
+    padding: 8px 11px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Titillium Web';
+    cursor: pointer;
+}
